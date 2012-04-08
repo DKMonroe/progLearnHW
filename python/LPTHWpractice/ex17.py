@@ -5,6 +5,8 @@ script, from_file, to_file = argv
 
 print "Copying from %s to %s" % (from_file, to_file)
 
+# input = open(from_file)
+# indata = input.read()
 #We could do these two on one line too, how?
 #Just like that!
 indata = open(from_file).read()
