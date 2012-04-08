@@ -5,10 +5,10 @@ script, from_file, to_file = argv
 
 print "Copying from %s to %s" % (from_file, to_file)
 
-#we could do these two on one line too, how?
-input = open(from_file)
-indata = input.read()
-
+#We could do these two on one line too, how?
+#Just like that!
+indata = open(from_file).read()
+#Technically, you could also do .readlines()
 print "The input file is %d bytes long" % len(indata)
 
 print "Does the output file exist? %r" % exists(to_file)
