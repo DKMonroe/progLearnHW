@@ -1,0 +1,4 @@
+Did you call/use/run this function by typing its name?
+Did you put ( character after the name to run it?
+Did you put the values you want into the parenthesis separated by commas?
+Did you end the function call with a ) character.

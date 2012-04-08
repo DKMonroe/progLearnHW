@@ -1,0 +1,133 @@
+symbol
+    name
+    function
+
+print             
+    prints
+    Prints the content of the expression onto an output (screen or otherwise)
+
+#
+    comment
+    Allows the user to add information that is not interpreted by the program
+
++
+    plus
+    Addition operation
+
+-
+    minus
+    Subtraction operation
+
+/
+    slash
+    Division operation
+
+*
+    asterisk
+    Multiplication operation
+
+%
+    percent
+    Remainder operation
+
+<
+    less-than
+    Less-than comparision operation
+
+>
+    greater-than
+    Greater-than comparision operation
+
+<=
+    less-than-equal
+    Less-than or Equal comparison operation
+
+>=
+    greater-than-equal
+    Greater-than or Equal comparison operation
+
+%r
+    string formatting operation
+    String (converts any Python object using repr())
+
+%d
+    string formatting operation
+    converts to an interger decimal
+
+%s
+    string formatting operation
+    converts any Python object using str())
+
+\n
+    new line character
+    creates a new ling after the string formatter
+
+\
+    escape character
+    the beginning of the escape sequence
+
+\t
+    tab character sequence
+    creates a tab inside the string
+
+raw_input()
+    raw input function
+    captures user input
+
+sys
+    sys module
+    a library of programs called sys
+
+import
+    import command
+    Imports parts of a module
+
+
+argv
+    argument variable
+    Holds the arguments passed to it at run
+
+open()
+    open function
+    opens the file
+
+close()
+    close function
+    closes the file
+
+read()
+    read function
+    reads the contents of a file
+
+readline()
+    readline function
+    reads one line of a text file
+
+truncate()
+    truncate function
+    Empties the file
+
+write()
+    write function
+    Write stuff to a file
+
+exists
+    exists command
+    Returns TRUE if a file exists
+
+def
+    definition function
+    creates a function that runs a section of code on command
+
+return
+    return command
+    returns a value from a function
+
+==
+    equals
+    compares for equality
+
+!=
+    not equal
+    compares for inequality
+
