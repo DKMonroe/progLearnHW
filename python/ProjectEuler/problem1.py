@@ -13,20 +13,13 @@ while 3 * count < 1000:
     values.append (3 * count)
     count = count + 1
 
-print values
-
 count = 1
 while 5 * count < 1000:
     values.append (5 * count)
     count = count + 1
-    
-print values
 
 values.sort()
-print values
 
 uniques = set(values)
-
-print uniques
 
 print sum(uniques)
