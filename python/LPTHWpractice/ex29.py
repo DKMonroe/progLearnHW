@@ -16,6 +16,14 @@ if people > dogs:
     print "The world is dry!"
 
 
-dogs += 5
+dogs += 5 # Oh you sneaky bastard Zed! *shakes fist and smiles*
 
+if people >= dogs:
+    print "People are greater than or equal to dogs."
+    
+if people <= dogs:
+    print "People are less than or equal to dogs."
+    
 
+if people == dogs:
+    print "People are dogs."
