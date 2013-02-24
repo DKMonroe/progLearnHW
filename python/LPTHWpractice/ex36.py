@@ -26,13 +26,25 @@ def engine_room():
 # it has guns, armored vests
 # the user can pick these up and put them in their inventory
 def armory_room():
-	print "You enter a dead end room"
-	print "but it seems to be an armory."
-	print "there are guns and armored vests"
-	print "wil you take them?"
-	print "type yes if you do, type no if you wish to return to the engine room"
+	print "You are in a dead end room"
+	print "It seems to be an armory."
+	print "There are guns and armored vests here."
+	print "What do you do?"
+	print "1. Take the guns and armored vests."
+	print "2. Go West."
 	
 	next = raw_input("> ")
+
+	if "1" in next:
+		# add something to the inventory
+		print "We do not currently know how to code an inventory. Stay tuned."
+		armory_room()
+	elif "2" in next:
+		engine_room()
+	else:
+		print "What are you talking about? Who would ever %s?" % next
+		armory_room()
+
  #enter in the options for inventory when we figure out how to
  #it will be a list to show items we pick up along the journey
  #the player will have to be able to access the inventory at any time   
@@ -41,18 +53,19 @@ def armory_room():
 
 # stairway is a room that only has an exit up
 def stairway_room():
-	print "you enter and see a staircase, a cramped foggy area surrounds you."
-	print "do you go up the stairs or go back?"
-	print " type up to go up the staircase type back to return to the enine room"
+	print "You enter and see a staircase, a cramped foggy area surrounds you."
+	print "How will you handle the intensity that is this room?"
+	print "1. Go up."
+	print "2. Go South."
 	
 	next = raw_input("> ")
 	
-	if "up" in next:
+	if "1" in next:
 		bridge_room()
-	elif "back" in next:
+	elif "2" in next:
 		engine_room()
 	else:
-		print "I do not understand this command"
+		print "Have you been sniffing the fog again? I don't know what %s means." % next
 		stairway_room()
 
 #the bridge is a room that consists of a mini game
