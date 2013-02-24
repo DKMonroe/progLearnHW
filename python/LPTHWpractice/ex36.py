@@ -41,4 +41,10 @@ def stairway_room():
 # the user can pickup items (add to list)
 # user can view inventory (view list)
 
-engine_room()
+def start (): 
+	print "Starbizzel is an text-based adventure set in a universe with advanced technology."
+	print "To play, you press a number for the choice you wish to take."
+	print "Have fun and good luck."
+	engine_room()
+
+start ()
