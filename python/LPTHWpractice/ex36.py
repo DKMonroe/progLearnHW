@@ -40,7 +40,7 @@ def armory_room():
 		print "We do not currently know how to code an inventory. Stay tuned."
 		armory_room()
 	elif "2" in next:
-		engine_room()
+		stairway_room()
 	else:
 		print "What are you talking about? Who would ever %s?" % next
 		armory_room()
@@ -93,6 +93,7 @@ def bridge_room():
 def control_game():
 	print "when you get to the control pannel you see a bunch of numbers"
 	print "the controls are simple press a number from 1-5 to see what happenes"
+	print"or type go back to return"
 	
 	next = raw_input("> ")
 	
@@ -116,11 +117,43 @@ def control_game():
 		bridge_room()
 	else:
 		print"i dont understand this command"
- 
- 
- 
- 
-# a need user controls
+def observation_elevator()
+	print"you look around to really take in everything"
+	print"there is an elevator to your left"
+	print"would you like to go in it?"
+
+	next = raw_input("> ") 
+
+	if "yes" in next:
+		print"you enter and go to the next floor"
+		ship_room()
+	elsif "no" in next:
+		bridge_room
+	else:
+		print"I dont know what that means"
+def ship_room()
+	print"when you exit the elevator you see a ship dock"
+	print"there are 4 ships"
+	print"which one would you like to use?"
+	print"your options are 1 2 3 or 4"
+
+	next =raw_input ("> ")
+
+	if "1" in next:
+		print"you jump into a marron cruser"
+		space_room()
+	elsif "2" in next:
+		print"you hop into a yellow fighter jet"
+		space_room()
+	elsif "3" in next:
+		print"you fly off in a blue plane,"
+		print"right as you leave you hit an asteroid you died :("
+		start_again()
+	elsif "4" in next:
+		print"you fly of in a fire engine red jet"
+		space_room()
+
+a need user controls
 # the user can enter directions (n, s, e, w)
 # the user can pickup items (add to list)
 # user can view inventory (view list)
