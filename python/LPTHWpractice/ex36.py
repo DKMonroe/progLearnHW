@@ -137,7 +137,7 @@ def ship_room()
 	print"which one would you like to use?"
 	print"your options are 1 2 3 or 4"
 
-	next =raw_input ("> ")
+	next = raw_input ("> ")
 
 	if "1" in next:
 		print"you jump into a marron cruser"
@@ -152,7 +152,18 @@ def ship_room()
 	elsif "4" in next:
 		print"you fly of in a fire engine red jet"
 		space_room()
+	else 
+		print"What ship do you want to take?"
+def space_room()
+	print"you are flying in space, you are amazed by the wonder of space"
+	print"suddenly out of the blue an asteroid flys out."
+	print"how would you like to doge it"
+	print"type dodge or dip"
 
+	next = raw_input ("> ")
+
+	if "dodge" in next:
+		print"you pull to the left
 a need user controls
 # the user can enter directions (n, s, e, w)
 # the user can pickup items (add to list)
