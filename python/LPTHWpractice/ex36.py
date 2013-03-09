@@ -117,7 +117,7 @@ def control_game():
 		bridge_room()
 	else:
 		print"i dont understand this command"
-def observation_elevator()
+def observation_elevator():
 	print"you look around to really take in everything"
 	print"there is an elevator to your left"
 	print"would you like to go in it?"
@@ -127,11 +127,11 @@ def observation_elevator()
 	if "yes" in next:
 		print"you enter and go to the next floor"
 		ship_room()
-	elsif "no" in next:
+	elif "no" in next:
 		bridge_room
 	else:
 		print"I dont know what that means"
-def ship_room()
+def ship_room():
 	print"when you exit the elevator you see a ship dock"
 	print"there are 4 ships"
 	print"which one would you like to use?"
@@ -154,7 +154,7 @@ def ship_room()
 		space_room()
 	else 
 		print"What ship do you want to take?"
-def space_room()
+def space_room():
 	print"you are flying in space, you are amazed by the wonder of space"
 	print"suddenly out of the blue an asteroid flys out."
 	print"how would you like to doge it"
@@ -169,7 +169,7 @@ a need user controls
 # the user can pickup items (add to list)
 # user can view inventory (view list)
 
-def start (): 
+def start(): 
 	print "Starbizzel is an text-based adventure set in a universe with advanced technology."
 	print "To play, you press a number for the choice you wish to take."
 	print "Have fun and good luck."
