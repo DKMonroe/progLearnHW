@@ -9,3 +9,10 @@
 
 values = []
 count = 1
+firstTerm = 1
+secondTerm = 2
+
+values.append (firstTerm)
+values.append (secondTerm)
+
+print (values)
